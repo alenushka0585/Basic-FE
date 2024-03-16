@@ -1,0 +1,58 @@
+h1,
+p,
+caption,
+ul {
+	text-align: center;
+	color: white;
+}
+
+h1,
+p,
+table {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+ul {
+	list-style: square;
+	list-style-position: inside;
+	display: table;
+	margin: 0 auto;
+	padding: 0;
+}
+
+div {
+	margin-bottom: 20px;
+}
+
+caption {
+	font-size: larger;
+	font-weight: bold;
+}
+
+th,
+tr,
+td {
+	border: 1px solid black;
+}
+
+table {
+	width: 1200px;
+	height: 3000px;
+	margin: auto;
+	background-color: rgb(155, 176, 240);
+	color: rgb(10, 47, 58);
+	border: 5px solid rgb(28, 5, 55);
+}
+
+td:nth-child(1n) {
+	text-align: right;
+}
+
+td:nth-child(3),
+#columnCl {
+	background-color: rgb(246, 173, 239);
+}
+
+body {
+	background-image: url(https://img.goodfon.ru/original/1920x1080/2/47/gorod-frankfurt-na-maine-noch.jpg);
+}
