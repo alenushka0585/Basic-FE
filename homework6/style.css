@@ -1,0 +1,11 @@
+div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img.smallImg {
+    width: 100px;
+    height: 100px;
+}
+
